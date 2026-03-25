@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sippin' Continents</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body, html { height: 100vh; margin: 0; display: flex; flex-direction: column; overflow: hidden; background-color: #FAF3E0; }
+        iframe { flex-grow: 1; border: none; width: 100%; display: block; }
+        footer { margin-top: 0; padding: 20px 60px 10px; }
+        .footer-grid { margin-bottom: 20px; gap: 30px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="home.html" target="content_frame" class="logo"><img src="images/logo.png" alt="Sippin' Continents" style="max-height: 40px; vertical-align: middle;"></a>
+        <ul>
+            <li><a href="home.html" target="content_frame">Home</a></li>
+            <li><a href="menu.html" target="content_frame">Menu</a></li>
+            <li><a href="about.html" target="content_frame">About Us</a></li>
+            <li><a href="contact.html" target="content_frame">Contact</a></li>
+            <li><a href="reservation.html" target="content_frame">Reservations</a></li>
+            <li><a href="gallery.html" target="content_frame">Gallery</a></li>
+            <li><a href="branches.html" target="content_frame">Branches</a></li>
+            <li><a href="specials.html" target="content_frame">Specials</a></li>
+            <li><a href="feedback.html" target="content_frame">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <iframe name="content_frame" id="content_frame" src="home.html"></iframe>
+
+    <footer style="text-align: center; padding: 15px; margin-top: 0;">
+        <p>&copy; 2026 All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
